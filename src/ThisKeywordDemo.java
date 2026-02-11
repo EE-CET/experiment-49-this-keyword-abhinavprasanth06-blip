@@ -13,7 +13,7 @@ class ThisDemo {
 public class ThisKeywordDemo {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
-        ThisKeywordDemo d1 = new ThisKeywordDemo();
+        ThisDemo  d1 = new ThisDemo();
         int num = sc.nextInt();
         d1.setValue(num);
         d1.display();
